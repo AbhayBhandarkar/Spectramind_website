@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Spectramind</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+        <!------Javascript for Toggle Menu in Mobile view------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.jpg"></a>    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-regular fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <!-----About Us----->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are Spectramind</h1>
+                    <p>Spectramind was an app built for the Geeks for Geeks Solving for India Hackathon
+                    by the team Binary Bandits from Ramaiah Institute of Technology, Bangalore. It is an 
+                    app that aims to provide a better life and stabilise mental health disorders in people, mainly 
+                    Dyslexia and ASD. </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="">
+                </div>
+            </div>
+        </section>
+
+        <!-----Meet the team----->
+
+        <div class="wrapper">
+            <h1>Our Team</h1>
+            <div class="our_team">
+                <div class="team_member">
+                  <div class="member_img">
+                     <img src="Images/abhay.jpeg" alt="our_team">
+                    <div class="social_media">
+                       <div class="facebook item"><i class="fa-brands fa-linkedin"></i></div>
+                       <div class="twitter item"><i class="fa-brands fa-twitter"></i></div>
+                       <div class="instagram item"><i class="fa-brands fa-instagram"></i></div>
+                     </div>
+                  </div>
+                  <h3>Abhay Bhandarkar</h3>
+                  <span>Team Lead</span>
+                  <p>Developer of this website, machine learning enthusiast, aspiring fullstack developer</p>
+                </div>
+                <div class="team_member">
+                   <div class="member_img">
+                     <img src="member_2.png" alt="our_team">
+                     <div class="social_media">
+                       <div class="facebook item"><i class="fa-brands fa-linkedin"></i></div>
+                       <div class="twitter item"><i class="fa-brands fa-twitter"></i></div>
+                       <div class="instagram item"><i class="fa-brands fa-instagram"></i></div>
+                     </div>
+                  </div>
+                  <h3>Amogh Kalasapura</h3>
+                  <span>Fullstack developer</span>
+                  <p>Skilled in Python for Competitive programming, Flutter developer</p>
+              </div>
+                <div class="team_member">
+                   <div class="member_img">
+                     <img src="member_3.png" alt="our_team">
+                     <div class="social_media">
+                       <div class="facebook item"><i class="fa-brands fa-linkedin"></i></div>
+                       <div class="twitter item"><i class="fa-brands fa-twitter"></i></div>
+                       <div class="instagram item"><i class="fa-brands fa-instagram"></i></div>
+                     </div>
+                  </div>
+                  <h3>Sathya Pramodh</h3>
+                  <span>Fullstack Developer</span>
+                  <p>Active in Open source contribution, skilled in C++ for competitive programming, Flutter developer</p>
+              </div>
+                <div class="team_member">
+                   <div class="member_img">
+                     <img src="member_4.png" alt="our_team">
+                     <div class="social_media">
+                       <div class="facebook item"><i class="fa-brands fa-linkedin"></i></div>
+                       <div class="twitter item"><i class="fa-brands fa-twitter"></i></div>
+                       <div class="instagram item"><i class="fa-brands fa-instagram"></i></div>
+                     </div>
+                  </div>
+                  <h3>Jaswant</h3>
+                  <span>Android developer</span>
+                  <p>Skilled in Java programming, aspiring android developer</p>
+              </div>  
+            </div>
+        </div>	
+
+
+
+        <!------ Footer ------>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are team Binary Bandits from Ramaiah Institute of Technology</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </section>
+    </body>
+</html>

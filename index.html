@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Spectramind</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+        <!------Javascript for Toggle Menu in Mobile view------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.jpg"></a>    
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-regular fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>The best mental healthcare app</h1>
+                <p>This app has been created to make the lives of millions who suffer from various 
+                autism spectrum disorders better.</p>
+                <a href="" class="hero-btn">Read on to know more</a>            
+            </div>
+        </section>
+        <!-----Introduction in home page------>
+        
+        <section class="introHome">
+            <h1>Introducing <u>Spectramind!</u></h1>
+            <p>An interactive app developed by Team Binary Bandits to support people who suffer
+                from mental problems and disorders like Autism and Dyslexia.</p><br><br>
+            <h2>Here are the problems we tackle-</h2><br><br>
+        <div class="row">
+            <div class="problems-col">
+                <h3>Dyslexia</h3>
+                <p>Dyslexia is a specific learning disorder that primarily affects reading and spelling abilities. It is characterized by difficulties in
+                 accurately and fluently recognizing words, poor decoding skills, and challenges in phonological processing. People with dyslexia may also 
+                 experience difficulties with writing, math, and organization skills. Dyslexia is not related to intelligence, and individuals with dyslexia 
+                 often have strengths in other areas, such as problem-solving or creativity.</p>
+            </div>
+
+            <div class="problems-col">
+                <h3>Autism Spectrum Disorder(ASD)</h3>
+                <p>Autism Spectrum Disorder (ASD) is a developmental disorder that affects communication, social interaction, and behavior. It is characterized 
+                by a range of symptoms and challenges, which can vary widely from person to person. People with ASD may have difficulty with social interactions, 
+                exhibit repetitive behaviors, experience sensory sensitivities, and have intense interests in specific topics. ASD is a lifelong condition, but early
+                intervention and appropriate support can greatly enhance an individual's quality of life and their ability to navigate the world.</p>
+            </div>
+            <div class="problems-col">
+                <h3>Other mental health disorders</h3>
+                <p>Anxiety, insomnia, and depression are common mental disorders that affect many individuals. Anxiety involves persistent feelings of fear 
+                and worry, while insomnia refers to difficulty falling asleep or staying asleep. Depression, on the other hand, is characterized by persistent sadness, loss of interest,
+                and feelings of worthlessness. These conditions can significantly impact daily functioning and overall well-being. However, with proper support, including therapy, medication, 
+                and self-care strategies, individuals can manage and overcome these challenges, leading to improved mental health and quality of life.</p>
+            </div>
+        </div>
+        </section>
+
+        <!----- Install product ----->
+
+        <section class="Product">
+            <h1>Product</h1>
+            <p>Click the icon below to magically travel to the place where you can download our product and get fully benefitted by it.</p>
+            <!----Need to add a github button and add link to it---->
+        </section>
+
+        <!----Can add testimonials section as well---->
+
+        <!----For businesses and schools to tie up with us---->
+        <section class="cfb">
+            <h1>We are open to tie up with various organisations like hospitals, care centres and schools for the betterment of children and people</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!------ Footer ------>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are team Binary Bandits from Ramaiah Institute of Technology</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </section>
+    </body>
+</html>
